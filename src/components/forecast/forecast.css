@@ -46,6 +46,12 @@
     padding: 5px 15px;
 }
 
+@media (max-width: 400px) {
+    .display-details-grid {
+      display: none;
+    }
+}
+
 .daily-details-grid-item{
     display: flex;
     align-items: center;
